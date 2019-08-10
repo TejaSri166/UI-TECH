@@ -1,0 +1,49 @@
+Express Generator................
+
+This is a tool given from Express JS to create the default folder structure for any web application
+2.Official Documentation for Exprees Generator is..
+http://expressjs.com->Getting Started->Express Generator
+
+to install Express GEnerator
+npm install express-generator -g
+
+to create a project using Express Generator is...
+syntax..express --view=<view_Engine> <Project-name>
+example..express --view=ejs 13-Express-Template-Engine-EJS
+
+to install the dependencies
+npm install
+
+to run the application
+npm start
+
+
+
+
+Changes For Project by express Generator...
+1.in 'package.json' use 'nodemon' instead of 'node'
+
+BEFORE.."start": "node./bin/www"
+AFTER.."start": "nodemon./bin/www"
+
+2.Replace all the 'var' with 'const' in all '.js' files(total 4)
+
+3.Change the Static files middleware in 'app.js'
+
+BEFORE..app.use(express.static(path.join(_dirname,'public')));
+AFTER..app.use('/public',express.static('public'));
+
+
+EJS TEMPLATE ENGINE.....
+1.EJS..Embedded Java Script
+Official website..https://ejs.co/
+Usage..
+a.this template engine is used to display any dynamic data from the server to the browser.
+b.In this,we wont use DOM Manupulation because the data has to serve from the server.
+c.In this template Engine, we mix the javascript code with the HTML Tags with EJS syntax.
+Ex..<% if (user){%>
+<h2><%=user.name%></h2>
+<%}%>
+
+Each file which is serving dynamic data from the server using EJS should be have an extension ".ejs"
+eg..Index.ejs,about.ejs

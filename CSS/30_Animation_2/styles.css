@@ -1,0 +1,50 @@
+ul{
+    margin: 150px 150px;
+}
+li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    animation: animate 2s infinite linear;
+}
+@keyframes animate {
+    0% , 40% , 100%{
+        transform: scale(0.2);
+    }
+    20%{
+        transform: scale(1.5);
+    }
+}
+li:nth-child(1){
+    background-color: red;
+    box-shadow: 0 0 80px red;
+    animation-delay: 0.1s;
+}
+li:nth-child(2){
+    background-color: blue;
+    box-shadow: 0 0 50px blue;
+    animation-delay: 0.2s;
+}
+li:nth-child(3){
+    background-color: green;
+    box-shadow: 0 0 50px green;
+    animation-delay: 0.3s;
+}
+li:nth-child(4){
+    background-color: black;
+    box-shadow: 0 0 50px black;
+    animation-delay: 0.4s;
+}
+li:nth-child(5){
+    background-color: orangered;
+    box-shadow: 0 0 50px orangered;
+    animation-delay: 0.5s;
+}
+li:nth-child(6){
+    background-color: yellow;
+    box-shadow: 0 0 50px yellow;
+    animation-delay: 0.6s;
+}
+

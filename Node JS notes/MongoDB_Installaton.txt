@@ -1,0 +1,78 @@
+Download the Mongo DB Softwares
+--------------------------------
+
+1) MongoDB Server -> for data storage
+2) MongoDB Compass -> to visualize the data
+
+MongoDB Server
+--------------
+-> go to https://www.mongodb.com/
+-> Click on Products => Softwares => MongoDB  Server
+-> Click on Download button
+-> it downloads .msi file
+-> Double click on .msi file
+-> Proceed with installation (check the document)
+
+Set the Classpath
+-----------------
+-> go to C:\Program Files\MongoDB\Server\4.0\bin
+-> copy the address
+-> open 'Env variables'
+-> add to the 'path' variable.((check the document))
+
+Start the MongoDB Server Shell
+-------------------------------
+-> Open new Command prompt
+-> type 'mongo'
+-> Show the message -> Connecting to MongoDB
+
+Shell commands
+---------------
+show dbs -> to check the existing databases
+show collections -> to check the existing collections
+use <database_name> -> to switch to the given database_name
+
+Refer Docs
+-----------
+https://docs.mongodb.com/manual/reference/mongo-shell/
+
+Database Usage
+--------------
+Database -> infosys_db
+Table ->    employee
+Row ->      object
+
+Operations with database
+-------------------------
+C -> Create / Insert -> insertOne() , insertMany()
+R -> Read / Fetch -> findOne() , find()
+U -> Update -> updateOne() , updateMany() , replaceOne()
+D -> Delete -> deleteOne() , deleteMany()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

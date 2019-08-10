@@ -1,0 +1,80 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.7.2/css/all.css', integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin='anonymous')
+    link(rel='stylesheet', href='../public/stylesheets/font-awesome-5.7.1.css')
+    link(rel='stylesheet', href='../public/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='../public/stylesheets/mdb.css')
+    link(rel='stylesheet', href='../public/stylesheets/style.css')
+    title #{pageTitle}
+  body
+    // Main Navigation
+    include layout/navbar
+
+    // Main content Section
+    section.container-fluid.p-3
+      .row
+        .col
+          h1.text-success  #{pageTitle}
+
+    // Employee Registration
+    .container
+      .row
+        .col-md-2
+        .col-md-8
+          .card
+            .card-header.bg-primary.text-white.text-center
+              h3 Employee Registration
+            form(action='/register', method='post')
+              .card-body
+                .row
+                  .col-md-6
+                    .form-group
+                      input.form-control(type='text', name='emp_name', placeholder='Employee Name')
+                    .form-group
+                      input.form-control(type='number', name='emp_age', placeholder='Employee Age')
+                  .col-md-6
+                    .form-group
+                      select.form-control(name='emp_designation')
+                        option(value='Software Engineer') Software Engineer
+                        option(value='Sr. Software Engineer') Sr. Software Engineer
+                        option(value='Technical Lead') Technical Lead
+                        option(value='Sr.Technical Lead') Sr.Technical Lead
+                        option(value='Project Manager') Project Manager
+                    .form-group
+                      select.form-control(name='job_location')
+                        option(value='Hyderabad') Hyderabad
+                        option(value='Bangalore') Bangalore
+                        option(value='Other') Other
+                .row
+                  .col
+                    input.btn.btn-primary.btn-block(type='submit', value='Register')
+        .col-md-2
+
+    // Employee Table
+    .container.mt-3
+      .row
+        .col
+          table.table.table-hover.text-center
+            thead.bg-dark.text-white
+              tr
+                th EMPLOYEE NAME
+                th EMPLOYEE AGE
+                th DESIGNATION
+                th JOB LOCATION
+            tbody
+              each employee in employees
+                tr
+                  td #{employee.emp_name}
+                  td #{employee.emp_age}
+                  td #{employee.emp_designation}
+                  td #{employee.job_location}
+
+  // JavaScripts
+  script(src='../public/javascripts/jquery-3.3.1.min.js')
+  script(src='../public/javascripts/popper.min.js')
+  script(src='../public/javascripts/bootstrap.js')
+  script(src='../public/javascripts/mdb.js')

@@ -1,0 +1,121 @@
+/* ------------ Sidebar -------------- */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: #00c851;
+    float: left;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: #8aedb9;
+    text-transform: uppercase;
+    padding: 16px 25px;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    color: white;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 100px;
+    border: 10px solid #1bad56;
+    box-shadow: 0 0 15px black;
+}
+
+#about-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+#about-section h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    text-shadow: 0 0 5px black;
+    margin: 120px 0 0 0;
+}
+.fname{
+    color: #382828;
+}
+.lname{
+    color: #00c851;
+}
+#about-section h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin: 0;
+}
+#about-section p{
+    font-size: 25px;
+    color: gray;
+}
+
+/* -------------------- Exp Section --------------- */
+#exp-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.main-heading{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 5px #00c851;
+}
+.exp-article{
+    border-radius: 15px;
+    width: 280px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 15px #00c851;
+}
+.exp-article h3{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.exp-article p{
+    padding: 10px;
+    font-size: 18px;
+    color: gray;
+}
+.exp-button{
+    background-color: #00c851;
+    color: white;
+    border: 5px solid white;
+    padding: 12px 25px;
+    box-shadow: 0 0 5px #00c851;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* -------------- Education Section ------------- */
+#edu-section{
+    margin-left: 300px;
+    padding: 20px;
+}
+.edu-article{
+    box-shadow: 0 0 15px #00c851;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+.edu-article h3{
+    font-family: 'Lobster', cursive;
+    color: #00c851;
+    font-size: 25px;
+}
+.edu-article p{
+    color: gray;
+    font-size: 18px;
+}

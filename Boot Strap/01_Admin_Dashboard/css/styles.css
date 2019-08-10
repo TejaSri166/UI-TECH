@@ -1,0 +1,21 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+	font-size: 18px;
+}
+.dropdown-item:hover{
+    background-color: black;
+    color: white !important;
+}
+.bg-teal{
+    background-color: #165c5c;
+}
+.text-teal {
+    color: #165c5c;
+}
+.myImage{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.btn-teal{
+    background-color: #165c5c !important;
+}

@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.7.2/css/all.css', integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin='anonymous')
+    link(rel='stylesheet', href='../public/stylesheets/font-awesome-5.7.1.css')
+    link(rel='stylesheet', href='../public/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='../public/stylesheets/mdb.css')
+    link(rel='stylesheet', href='../public/stylesheets/style.css')
+    title #{pageTitle}
+  body
+    // Main Navigation
+    include layout/navbar
+
+    // Main content Section
+    section.container-fluid.p-3
+      .row
+        .col
+          h1.text-success  #{pageTitle}
+          p.lead
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam aperiam architecto aspernatur consequuntur cupiditate dolore dolorum eius ex fuga fugiat inventore libero magnam nisi nostrum odio quidem, quis recusandae rem tempore velit vitae voluptate? Doloribus explicabo iure laboriosam neque nihil placeat quibusdam repellat. Dolore quas quasi qui quod vero.
+          p.lead
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores deserunt doloribus est eveniet iusto molestiae quam! Assumenda atque consectetur cumque dolore ex, excepturi fugiat minus molestiae molestias natus nesciunt nisi optio quasi repudiandae, sint. Ab commodi dolore, dolorem illum mollitia placeat possimus quia totam? A adipisci amet blanditiis eius et ex, expedita facere maiores natus nulla odio perspiciatis praesentium quam quasi quo quod rerum sunt. Dolorem dolorum officia quidem unde.
+          p.lead
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium adipisci alias aliquid animi asperiores assumenda at culpa delectus est hic laborum maxime minus, necessitatibus neque non nulla pariatur quae quis quos reiciendis repellendus sunt suscipit velit voluptas voluptates! Animi beatae exercitationem libero nemo odit pariatur praesentium reprehenderit voluptates.
+
+  // JavaScripts
+  script(src='../public/javascripts/jquery-3.3.1.min.js')
+  script(src='../public/javascripts/popper.min.js')
+  script(src='../public/javascripts/bootstrap.js')
+  script(src='../public/javascripts/mdb.js')

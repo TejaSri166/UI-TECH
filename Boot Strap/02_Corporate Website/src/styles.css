@@ -1,0 +1,56 @@
+.dropdown-item:hover{
+    background-color: black;
+    color: white !important;
+}
+.bg-teal{
+    background-color: #165c5c;
+}
+.text-teal {
+    color: #165c5c;
+}
+.myImage{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #165c5c;
+}
+.btn-teal{
+    background-color: #165c5c !important;
+}
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height:10px;
+    width: 30px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.t_img{
+    margin-top: -60px;
+    box-shadow: 0 0 10px #165c5c;
+}
+.t_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #165c5c;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background-color: #165c5c;
+    transform: perspective(400px) rotateY(10deg);
+}
+.t_card:hover h3 , .t_card:hover p , .t_card:hover .fab{
+    color: white;
+}
+.s_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #165c5c;
+    transition: all 0.5s;
+}
+.s_card:hover{
+    background-color: #165c5c;
+    transform: perspective(400px) rotateY(10deg);
+}
+.s_card:hover h3 , .s_card:hover p , .s_card:hover .fa , .s_card:hover .fab{
+    color: white;
+}
+.p_card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #165c5c;
+}

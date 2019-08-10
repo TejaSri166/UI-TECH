@@ -1,0 +1,37 @@
+ windows commands-----------
+
+1.go to any folder/directory
+---------------
+cd <folder_name>
+
+
+2.gotoprevious folder
+--------
+cd..
+
+3.go to previous to previous folder
+-----
+cd../..
+
+4.to clear the screen
+--------
+cls
+
+5.tolist the files and folders in current folder
+-------
+dir
+
+6.to create a new folder
+-------
+mkdir <folder_name>
+
+
+7.to remove any folder
+--------
+rmdir <folder_name>
+
+8.
+torun a javascript files
+------------
+syntax :node <file_name>.js
+eg..node 02_app.js

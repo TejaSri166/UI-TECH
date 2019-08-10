@@ -1,0 +1,16 @@
+.btn-teal{
+    padding: 12px 150px;
+    background-color:#124646 !important;
+}
+.btn-teal:hover{
+    color: white !important;
+}
+.bg-teal{
+    background-color:#124646;
+}
+.card{
+    box-shadow: 0 0 10px #124646;
+}
+.form-control:focus{
+    box-shadow: 0 0 10px #124646;
+}

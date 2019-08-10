@@ -1,0 +1,14 @@
+{
+  "name": "20_jest_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}

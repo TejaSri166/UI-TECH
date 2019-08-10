@@ -1,0 +1,55 @@
+ul{
+    margin: 150px 150px;
+}
+li{
+    display: inline-block;
+    width: 6px;
+    height: 20px;
+    background-color: black;
+    animation: animate 0.7s infinite alternate;
+    border-radius: 50px;
+	margin:4px;
+}
+@keyframes animate {
+    0%{
+        transform: scaleY(1);
+
+    }
+    25%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    75%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(3);
+    }
+}
+li:nth-child(1){
+    animation-delay: 0.1s;
+    background-color: red;
+}
+li:nth-child(2){
+    animation-delay: 0.2s;
+    background-color: blue;
+}
+li:nth-child(3){
+    animation-delay: 0.3s;
+    background-color: green;
+}
+li:nth-child(4){
+    animation-delay: 0.4s;
+    background-color: black;
+}
+li:nth-child(5){
+    animation-delay: 0.5s;
+    background-color: yellow;
+}
+li:nth-child(6){
+    animation-delay: 0.6s;
+    background-color: purple;
+}
+

@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+}
+section{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+article{
+    width: 200px;
+    display: inline-block;
+    margin: 15px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    transition: all 0.5s;
+}
+.trans_1:hover{
+    transform: translateY(-10px);
+}
+.trans_2:hover{
+    transform: scale(1.2,1.2);
+    background-color: forestgreen;
+    color: white;
+}
+.trans_3:hover{
+    transform: scale(0.8,0.8);
+    background-color: forestgreen;
+    color: white;
+}
+.trans_4:hover{
+    transform: scale(1.2,1.2) skewX(20deg);
+    background-color: navy;
+    color: white;
+}
+.trans_5:hover{
+    transform: scale(1.2,1.2) skewY(20deg);
+    background-color: navy;
+    color: white;
+}
+.trans_6:hover{
+    transform: perspective(400px) rotateX(-20deg);
+    background-color: navy;
+    color: white;
+}
+.trans_7:hover{
+    transform: perspective(400px) rotateY(20deg);
+    background-color: navy;
+    color: white;
+}
+.trans_8:hover{
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+.trans_9:hover{
+    transform: rotate3d(2, -1, -1, -0.2turn);
+    background-color: skyblue;
+    color: white;
+    text-transform: uppercase;
+}

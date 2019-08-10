@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{
+    background-image: url("img/background2.jpg");
+    padding: 10px;
+    color: white;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: darkred;
+    box-shadow: 0 0 5px white;
+    border-radius: 10px;
+}
+section{
+    padding: 10px;
+}
+.main{
+    color: darkred;
+    font-size: 35px;
+}
+.article p{
+    font-size: 25px;
+    color: gray;
+}
+.article h2{
+    font-size: 30px;
+    text-shadow: 0 0 5px darkred;
+}
+figure{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+figure:hover{
+    box-shadow: 0 0 15px black;
+}
+figure img{
+    width: inherit;
+    height: 200px;
+    border-radius: 10px;
+}
+figure figcaption{
+    padding: 10px;
+}
+
+video{
+    width: 500px;
+}
+footer{
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+}

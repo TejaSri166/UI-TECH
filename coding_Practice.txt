@@ -1,0 +1,27 @@
+Coding Reference
+----------------
+
+
+for Java
+https://www.hackerearth.com/
+
+https://www.hackerrank.com/
+
+
+
+HTML Practice /
+ Certification
+------------------------------
+https://www.os-templates.com/
+free-basic-html5-templates
+
+https://learn.freecodecamp.org/
+
+
+
+
+CSS Practice
+------------
+
+https://templated.co/
+https://learn.freecodecamp.org/

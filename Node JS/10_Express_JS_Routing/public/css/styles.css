@@ -1,0 +1,42 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: skyblue;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+h1{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+p{
+    font-size: 25px;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: lightsalmon;
+}
+nav a.active{
+    background-color: darkred;
+    color: white;
+}
+form{
+    background-color: gray;
+    padding: 10px;
+}
+input{
+    font-size: 20px;
+    margin: 5px;
+}
+textarea{
+    font-size: 18px;
+}

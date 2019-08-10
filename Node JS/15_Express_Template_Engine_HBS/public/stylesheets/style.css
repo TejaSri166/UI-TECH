@@ -1,0 +1,7 @@
+.active{
+  box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+.table{
+    box-shadow: 0 0 5px black;
+}
